@@ -1,0 +1,346 @@
+<?php include('/php/server.php') ?>
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="../css/estilo.css" >
+        <script type="text/javascript" src="../js/modals.js" charset="UTF-8"></script></head> 
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="../css/chosen.css">
+        <link rel="stylesheet" href="../css/ImageSelect.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="../js/chosen.jquery.js"></script>
+        <script src="../js/ImageSelect.jquery.js"></script>
+
+    </head>
+
+<body>
+    <nav>
+        <div class="row align-items-center justify-content-around">
+            <div class="col-lg-2">
+                <a href="../index.php" class="navbar-brand" style="margin-left: 10px;"> <img src="../img/logo.png" style="width: 400px;"> </a>
+            </div>
+
+            <div class="offset-lg-7 col-lg-1">
+                <button class="btn btn-outline w3-round-xxlarge" id="signin"  type="button" data-toggle="modal" data-target="#modal_signin" ><b>Regístrate</b></button>
+            </div>
+
+            <div class="col-lg-2">
+                <button class="btn btn-outline w3-round-xxlarge" id="login" style="margin-left: 50px;" type="button" data-toggle="modal" data-target="#modal_login" ><b>Inicia sesion</b></button>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <img class="lang_info" src="../img/Portugues.png" alt="">
+        <h1 class="lang_info_header">Portugués</h1>
+    </div>
+
+    <div class="card">
+        <p>El portugués es actualmente el quinto idioma más hablado en el mundo y el idioma oficial de Portugal, Brasil, Angola, Cabo Verde, Guinea-Bissau, Mozambique, Santo Tomé y Príncipe y Timor Oriental. También se utiliza en Macao, un territorio bajo administración portuguesa hasta 1999, y en Goa. El portugués es también la base de una veintena de idiomas y pretende ser una lengua minoritaria importante en países como Andorra, Luxemburgo, Namibia, Suiza y Sudáfrica a través del trabajo de numerosas comunidades portuguesas que allí residen. Esta es la universalidad de la lengua portuguesa que une a los brasileños, muchos países africanos y algunos asiáticos, reconociendo la Lengua Portuguesa como patrimonio cultural común. A pesar de no tener un territorio continuo sino vastas regiones separadas y dispersas por varios continentes, y el hecho de no pertenecer a una única comunidad sino al ser sentida como suya, igualmente, por comunidades distantes, queda de manifiesto una gran diversidad interna dependiendo de regiones y grupos que la utilizan.</p>
+        <iframe src="https://www.youtube.com/embed/BOtg6dGTnLc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="header-title2" style="padding: 10px; border-radius: 10px">
+            <h1>Registrate hoy mismo</h1>
+                <button class="btn btn-outline w3-round-xxlarge" id="signin"  type="button" data-toggle="modal" data-target="#modal_signin" ><b>Regístrate</b></button>
+        </div>
+
+        <h1>Datos curiosos acerca del Portugués</h1>
+        <p>A continuación te presentamos algunos datos curiosos acerca del Portugués que te harán sorprender:</p>
+        <ul>
+            <li>El Portugés es el idioma oficial de <b>Brasil, Portugal, Mozambique, Angola, Santo Tomé y Príncipe, Cabo Verde, Guinea-Bissau y Timor Oriental</b>; los cuales pertenecen a África, excepto Brasil y Portugal. Esto se debe a la colonización europea del continente africano en el siglo XIX.</li>
+            <li>Es un idioma de, aproximadamente, <b>240 millones de personas a escala mundial</b>. Los que lo posiciona como el <b>sexto idioma más hablado en el mundo.</b></li>
+            <li>Corresponde a la tercera lengua más hablada que posee origen latino, después del español y el inglés, por lo que constituye un idioma muy útil para aprender, si se requiere expandir fronteras.</li>
+            <li>Los países de habla portuguesa no comparten frontera con otro país de la misma lengua.</li>
+            <li>Posee una pronunciación bastante heterogénea, incluyendo <b>once vocales</b> con la presencia de sus distintas variantes (nasales, abiertas y cerradas).</li>
+            <li>Existe una palabra famosa por ser la más extensa en este idioma, la cual te damos a conocer aquí: <b>pneumoultramicroscopicossilicovulcanoconiótico</b>, la cual sigfica el padecimiento en el organismo asociado a la absorcion por cenizas volcánicas.</li>
+            <li>Posee distintos acentos o tildes, a saber: <b>el acento agudo (`), el acento grave (´) y el acento circunflejo (^)</b>. Con la presencia también de acentos auxiliares para algunas letras, tal es el caso del <b>til (~), el hifen (-), el guión para fusionar palabras compuestas y el cedilha (ç).</b></li>
+            <li>Aunque se originó en Portugal, hay más hablantes de portugués en Brasil que en cualquier otro país donde se hable este idioma.</li>
+            <li>Cientos de palabras del idioma portugués <b>se derivan del árabe.</b> El vocabulario en portugués también absorbe palabras del italiano, francés y algunos idiomas africanos y sudamericanos.</li>
+        </ul>
+
+        <h1>Sitios para practicar Portugués</h1>
+        <p>Aqui te presentamos algunos sitios web para que practiques Portugués:</p>
+        <ul>
+            <li><a href="https://www.practiceportuguese.com/">https://www.practiceportuguese.com/</a></li>
+            <li><a href="https://lingua.com/es/portugues/lectura/">https://lingua.com/es/portugues/lectura/</a></li>
+            <li><a href="https://www.digitaldialects.com/Portuguese.htm">https://www.digitaldialects.com/Portuguese.htm</a></li>
+            <li><a href="https://app.mondly.com/tutorial">https://app.mondly.com/tutorial</a></li>
+        </ul>
+
+        <h1>Canales en YouTube</h1>
+        <p>Hay muchos profesores de Portugués en YouTube, aquí te mostramos algunos:</p>
+        <div class="row">
+            <div class="col m-6">
+                <iframe class="vid_recomend" src="https://www.youtube.com/embed/cwY85S1O0vk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Tus Clases de Portugués</p>
+            </div>
+            <div class="col m-6">
+                <iframe class="vid_recomend" src="https://www.youtube.com/embed/J-KXieYKgRY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Português com Marcia Macedo</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col m-6">
+                <iframe class="vid_recomend" src="https://www.youtube.com/embed/l5IjasOlzQI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Loca Linguista</p>
+            </div>
+            <div class="col m-6">
+                <iframe class="vid_recomend" src="https://www.youtube.com/embed/wupZQ9H5imw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Aprende idiomas</p>
+            </div>
+        </div>
+    </div>
+
+<div class="modal fade" id="modal_signin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <a href="index.php" class="navbar-brand"> <img src="../img/logo.png" style="margin-left: 130px; width: 65%;"> </a>
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title " id="exampleModalLabel" style="font-size: 30px; color: black;"> <b>Regístrate</b></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            
+                <div class="modal-body">
+                    <form method="post" action="index.php">
+                        <div class="form-group">
+                            <label for="name" class="col-form-label"> <b>Nombre</b></label>
+                            <input type="text" class="form-control" id="name" placeholder="Nombre" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name" class="col-form-label"><b>Apellido</b></label>
+                            <input type="text" class="form-control" id="lastname" placeholder="Last Name" name="lastname" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name" class="col-form-label"> <b>Nombre de usuario</b></label>
+                            <input type="text" class="form-control" id="username" placeholder="Username" name="username" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name" class="col-form-label"> <b>Pais</b></label>
+                            <input type="text" class="form-control" id="country" placeholder="Pais" name="region" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="e-mail" class="col-form-label"> <b>Correo Electrónico</b></label>
+                            <input type="email" class="form-control" id="e-mail" placeholder="e-mail" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="password" class="col-form-label"><b>Contraseña</b></label>
+                            <input type="password" class="form-control" id="password" minlength="6" placeholder="6 caracteres como mínimo" name="password_1" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password" class="col-form-label"><b>Vuelve a escribir la contraseña</b></label>
+                            <input type="password" class="form-control" id="password_2" minlength="6" placeholder="Ingrese nuevamente su contraseña" name="password_2" required>
+                        </div>
+                        <div class="form-group">  
+                            <label for="targlang" class="col-form-label"><b>Elige el idioma que quieres aprender</b></label>
+                            <div class="container">
+                                <select class="my-select" name="targlang">
+                                    <option data-img-src="../img/Español.png" value="esp" selected>Español</option>
+                                    <option data-img-src="../img/Ingles.png" value="eng"> Inglés</option>
+                                    <option data-img-src="../img/Portugues.png" value="por"> Portugués</option>
+                                    <option data-img-src="../img/Aleman.png" value="ger"> Alemán</option>
+                                    <option data-img-src="../img/Frances.png" value="fra"> Francés</option>
+                                    <option data-img-src="../img/Italiano.png" value="ita"> Italiano</option>
+                                    <option data-img-src="../img/Coreano.png" value="kor"> Coreano</option>
+                                    <option data-img-src="../img/Arabe.png" value="ara"> Árabe</option>
+                                    <option data-img-src="../img/Chino.png" value="chn"> Chino</option>
+                                    <option data-img-src="../img/Ruso.png" value="rus"> Ruso </option>
+                                </select>
+                            </div>                   
+                        </div>
+                        <div class="form-group">  
+                            <label for="natlang" class="col-form-label"><b>Elige tu idioma nativo</b></label>
+                            <div class="container">
+                                <select class="my-select" name="natlang">
+                                    <option data-img-src="../img/Español.png" value="esp" selected>Español</option>
+                                    <option data-img-src="../img/Ingles.png" value="eng"> Inglés</option>
+                                    <option data-img-src="../img/Portugues.png" value="por"> Portugués</option>
+                                    <option data-img-src="../img/Aleman.png" value="ger"> Alemán</option>
+                                    <option data-img-src="../img/Frances.png" value="fra"> Francés</option>
+                                    <option data-img-src="../img/Italiano.png" value="ita"> Italiano</option>
+                                    <option data-img-src="../img/Coreano.png" value="kor"> Coreano</option>
+                                    <option data-img-src="../img/Arabe.png" value="ara"> Árabe</option>
+                                    <option data-img-src="../img/Chino.png" value="chn"> Chino</option>
+                                    <option data-img-src="../img/Ruso.png" value="rus"> Ruso </option>
+                                </select>
+                            </div>                   
+                        </div>
+
+                        <div class="modal-footer justify-content-center" >
+                            <button class="btn btn-outline w3-round-xxlarge next" type="submit" data-toggle="modal" data-target="#modal_lang_p" name="reg_user"> <b>Siguiente</b></button>
+                            <p>Al continuar, aceptas las <a href="#">Condiciones de uso</a> y el <a href="#">Aviso de privacidad</a> de Shop Online.</p>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <a href="index.php" class="navbar-brand"> <img src="../img/logo.png" style="margin-left: 130px; width: 65%;"> </a>
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel" style="font-size: 30px; color: black;"> <b>Inicia sesión</b></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            
+                <div class="modal-body">
+                    <form method="post" >
+                        <div class="form-group">
+                            <label for="username" class="col-form-label"> <b>Nombre de usuario</b></label>
+                            <input type="text" class="form-control" id="e-mail" placeholder="Nombre de usuario" name="username" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="password" class="col-form-label"><b>Contraseña</b></label>
+                            <input type="password" class="form-control" id="password" minength="10" placeholder="6 caracteres como mínimo" name="password_1" required>
+                        </div>
+
+                        <div class="form-group row">
+                            <label> <input type="checkbox" name="remember" style="margin-left: 10px;" checked> Recordar mis datos</label>
+                        </div>
+                        <div class="modal-footer justify-content-center" >
+                            <button class="btn btn-outline w3-round-xxlarge next" type="submit" name="login_user"> <b>Iniciar sesión</b></button>
+                    
+                            <div id="accordion">
+                                <a href="#" data-toggle="collapse" data-target="#collapse1" style="margin-right: 328px;"> ¿Necesitas ayuda?</a>
+                                <div class="collapse" id="collapse1">
+                                    <ul style="list-style:disc;">
+                                        <li> <a href="#modal_rest_pass" data-toggle="modal" data-target="#modal_rest_pass">¿Olvidaste tu contraseña?</a></li>
+                                        <li> <a href="#">Otros problemas con el inicio de sesión</a></li>   
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_rest_pass" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <a href="index.php" class="navbar-brand"> <img src="../img/logo.png" style="margin-left: 130px; width: 65%;"> </a>
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel" style="font-size: 30px; color: black;"> <b>Restaurar contraseña</b></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            
+                <div class="modal-body">
+                    <p style="text-align: center;">No te preocupes, ingresa tu correo y te enviaremos un link para que restaures tu contraseña</p>
+
+                    <form method="post">
+                        <div class="form-group">
+                            <label for="e-mail" class="col-form-label"> <b>Ingresa tu correo electrónico</b></label>
+                            <input type="email" class="form-control" id="e-mail" placeholder="e-mail o nombre de usuario" required>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="modal-footer justify-content-center">
+                    <button class="btn btn-outline w3-round-xxlarge next" type="submit" data-toggle="modal" data-target="#modal_lang_n"> <b>Enviar</b></button>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="container-fluid" >
+        <div class="row" >
+            <div class="col-lg-6 col-md-12 col-sm-12" style="background-color: #202020;">
+                <footer class="footer" >
+                    <div class="row" >
+                        <div class="col-md-6">
+                            <h5 class="text-uppercase" style="color: #f0eeee;"> Conoce más </h5>
+                            <ul class="list-unstyled"><br>
+                                <li > <a>Acerca de nosotros</a> </li><br>
+                                <li > <a>Preguntas frecuentes</a> </li><br>
+                                <li > <a>Contactanos</a> </li>
+                            </ul>
+                        </div>
+
+                        <!-- Grid column -->
+                        <div class="col-md-6 ">
+                            <h6 class="text-uppercase mb-0 text-center" style="color: #f0eeee;">¡Síguenos!</h6>
+
+                            <!-- Facebook -->
+                            <a><i> <img src="../img/fb.png" style="width: 15%;"></i></a>
+                            
+                            <!--Instagram-->
+                            <a> <i><img src="../img/ig.png" style="width: 15%;"> </i></a>
+
+                            <!--WhatsApp-->
+                            <a> <i> <img src="../img/wp.png" style="width: 15%;"></i> </a>
+
+                            <ul class="list-unstyled"><br>
+                                <li > <a>jose.gonzalezh@udea.edu.co</a> </li>
+                                <li > +57 323 5043165 </li><br>
+                                <li > <a>santiago.ruiz3@udea.edu.co</a> </li>
+                                <li > +57 323 5043165 </li><br>
+                                <li > Medellín, Colombia </li>
+                                <li > Universidad de Antioquia </li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            
+            <div class="col-lg-6 col-md-12" style="background-color: #202020;" >
+                <footer class="footer" >
+                    <h5 class="text-uppercase font-weight-bold">Escríbenos</h5><hr>
+
+                    <form>
+                        <fieldset class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Correo electrónico">
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <textarea class="form-control" id="exampleMessage" placeholder="Mensaje"></textarea>
+                        </fieldset>
+
+                        <div class="form-gorup row">
+                            <button class="btn btn-outline w3-round-xxlarge"> Enviar</button>
+                        </div>
+                    </form>
+                </footer>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
+
+
